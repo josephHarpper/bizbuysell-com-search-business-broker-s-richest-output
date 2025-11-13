@@ -1,0 +1,25 @@
+{
+  "name": "bizbuysell-search-business-broker-richest-output",
+  "version": "1.0.0",
+  "description": "Scraper for BizBuySell.com listings, franchises, and brokers with rich structured output.",
+  "main": "src/runner.js",
+  "scripts": {
+    "start": "node src/runner.js",
+    "run:sample": "node src/runner.js data/inputs.sample.json",
+    "lint": "node -e \"console.log('No linter configured')\"",
+    "test": "node -e \"console.log('No tests configured')\""
+  },
+  "keywords": [
+    "scraper",
+    "bizbuysell",
+    "business-listings",
+    "franchise",
+    "broker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
