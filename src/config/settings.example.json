@@ -1,0 +1,26 @@
+{
+  "concurrency": 3,
+  "maxItems": 200,
+  "delayMs": 500,
+  "http": {
+    "timeoutMs": 20000,
+    "retries": 3,
+    "userAgent": "Mozilla/5.0 (compatible; BizBuySellRichScraper/1.0; +https://bitbash.dev)",
+    "proxy": {
+      "enabled": false,
+      "protocol": "http",
+      "host": "127.0.0.1",
+      "port": 8080,
+      "auth": {
+        "username": "",
+        "password": ""
+      }
+    }
+  },
+  "output": {
+    "dir": "data",
+    "fileName": "sample-output.json",
+    "format": "json"
+  },
+  "logLevel": "info"
+}
