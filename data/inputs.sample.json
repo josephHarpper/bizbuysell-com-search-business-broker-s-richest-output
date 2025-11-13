@@ -1,0 +1,14 @@
+[
+  {
+    "type": "listing",
+    "url": "https://www.bizbuysell.com/business-brokers/example-broker/listing-example/1234567/"
+  },
+  {
+    "type": "franchise",
+    "url": "https://www.bizbuysell.com/franchise-for-sale/example-franchise/"
+  },
+  {
+    "type": "broker",
+    "url": "https://www.bizbuysell.com/business-brokers/example-broker/99999/"
+  }
+]
